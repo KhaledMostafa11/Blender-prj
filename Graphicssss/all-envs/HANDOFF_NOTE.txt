@@ -1,0 +1,34 @@
+
+================================================
+  ENV1 LIGHTING — HANDOFF TO TEAMMATE
+  Done by: Ba7r
+  Date: 2026-05-28 05:54
+================================================
+
+FILE TO USE:
+  Env1_Lighting_Ba7r_FINAL.blend
+
+WHAT'S INSIDE:
+  - 24 lights total (Sun + 12 Point + 4 Spot + 7 Area)
+  - Ambulance RED/BLUE flashing lights (250 frames)
+  - 3 cinematic cameras with auto-switching markers
+  - EEVEE configured: 1920x1080, 24fps, 128 samples
+
+COLLECTIONS ADDED (Ba7r's work):
+  Ba7r_Lights       → all scene lights
+  Ba7r_Cameras      → 3 cinematic cameras
+  Ba7r_Ambul_Flash  → animated ambulance lights
+
+CAMERAS:
+  Frame   1-80:  Cam_WideShot    (30mm wide shot)
+  Frame  81-160: Cam_CPR_CloseUp (85mm street level)
+  Frame 161-250: Cam_AmbulDrive  (50mm departure shot)
+
+TO RENDER:
+  1. Output Properties → File Format → FFmpeg Video → H264
+  2. Press Ctrl+F12
+  3. Video saves to Desktop/Ba7r_Render_Env1/
+
+DO NOT modify Ba7r_ collections.
+Environment modeling untouched.
+================================================

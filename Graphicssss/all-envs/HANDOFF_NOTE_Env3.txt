@@ -1,0 +1,34 @@
+
+================================================
+  ENV_3 LIGHTING HANDOFF
+  Done by: Ba7r
+  Date: 2026-05-28 06:35
+================================================
+
+FILE: Env3_Lighting_Ba7r_FINAL.blend
+
+WHAT WAS ADDED:
+  27 lights total:
+  - 1 Sun_Moon (moonlight, cold blue, 0.15W)
+  - 12 Point lights (courtyard + perimeter lamps, 500W amber)
+  - 5 Spot lights (RED+BLUE ambulance + 2 side wash + original Sun disabled)
+  - 9 Area lights (8 building windows + ambient fill overhead)
+
+  Flash animation: RED/BLUE alternating, ALL 250 frames verified
+  4 Cameras with auto-switching timeline markers:
+    Frame   1 → Cam_WideShot   (30mm full neighborhood overview)
+    Frame  64 → Cam_MediumShot (42mm courtyard + buildings)
+    Frame 128 → Cam_CloseUp    (40mm dramatic emergency angle)
+    Frame 192 → Cam_FinalShot  (35mm opposite side, animated pan)
+
+DO NOT TOUCH:
+  Ba7r_Lights / Ba7r_Cameras / Ba7r_Ambul_Flash / Ba7r_Render_Setup
+
+TO RENDER:
+  1. Output Properties → File Format → FFmpeg Video
+  2. Container: MPEG-4 / Codec: H.264 / Quality: High
+  3. Press Ctrl+F12
+  4. Output: Desktop/Ba7r_Render_Env3/
+
+SETTINGS: EEVEE | 1920x1080 | 24fps | 128 samples | Frames 1-250
+================================================
